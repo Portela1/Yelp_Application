@@ -6,9 +6,27 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended:true}))
 
 var campgrounds =[
-    {name:"Hell", image: "https://i.pinimg.com/564x/12/c8/3e/12c83efa4d0baf8aa39a48a40a173da8.jpg"},
-    {name:"Heaven", image: "https://i.pinimg.com/236x/32/4b/20/324b204d391ae6a08993e6d3b25c2e42.jpg"},
-    {name:"Pulgatory", image: "https://thumbs.dreamstime.com/b/earth-sinking-pollution-8147924.jpg"}
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"},
+    {name:"Hell", image: "https://www.evangelistjoshua.com/wp-content/uploads/2018/10/Hell-678x381.jpg"},
+    {name:"Heaven", image: "https://i.pinimg.com/originals/6d/e6/99/6de69929f42d617fc979d8bc38eb437d.jpg"},
+    {name:"Pulgatory", image: "https://churchpop.com/wp-content/uploads/2020/03/purgatory-1280x720.jpg"}
 ]
 
 app.set("view engine","ejs");
